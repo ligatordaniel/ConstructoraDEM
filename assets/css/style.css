@@ -1,13 +1,37 @@
 body {
-  background-color: #518f7f;
+  background-color: black;
   color: grey;
+  font-size: 4px;
+}
+body h2 {
+  font-size: 2rem;
+  text-align: center;
 }
 
 nav {
-  background-color: #518f7f;
+  background-color: black;
 }
 
 h3 {
+  text-align: center;
+}
+
+.nosotros {
+  text-align: justify;
+}
+
+.contactodiv {
+  background-color: #ababb1;
+  margin: 0px auto;
+}
+
+footer {
+  padding: 10px;
+  background-color: black;
+  color: #b9b8b8;
+}
+footer h2 {
+  font-size: 1rem;
   text-align: center;
 }
 
