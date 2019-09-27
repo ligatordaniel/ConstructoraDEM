@@ -60,8 +60,8 @@
 
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                 <div class="navbar-nav mr-auto ml-auto text-center">
-                    <a class="nav-item nav-link" href="#sobreMi">Sobre Nosotros</a>
-                    <a class="nav-item nav-link" href="#habilidades">Servicios</a>
+                    <a class="nav-item nav-link" href="#sobrenosotros">Sobre Nosotros</a>
+                    <a class="nav-item nav-link" href="#servicio">Servicios</a>
                     <a class="nav-item nav-link" href="#proyectos">Proyectos</a>
                     <a class="nav-item nav-link active" href="#contacto">Contacto</a>
 
@@ -121,14 +121,14 @@
 
 
         <!--sobrenosotros-->
-        <div class=" container pt-5">
+        <div class=" container pt-5" id="sobrenosotros">
 
             <h2 class="m-5">Nosotros</h2>
 
             <div class="card mb-3" style="max-width: 100%;">
                 <div class="row no-gutters">
                     <div class="col-md-5">
-                        <img src="assets/img/pic01.jpg" class="card-img" alt="...">
+                        <img src="assets/img/nosotros.jpg" class="card-img" alt="...">
                     </div>
                     <div class="col-md-7">
                         <div class="card-body nosotros p-5">
@@ -155,7 +155,7 @@
 
 
         <!--servicios-->
-        <div class="container servicios">
+        <div class="container servicios" id="servicio">
 
             <h3 class="mt-5">Servicios</h2>
 
@@ -221,10 +221,10 @@
         <!--servicios-->
 
         <!--proyectos-->
-        <div class="container proyectofondo mt-5">
-            <div class="proyectos p-5">
-
-                <h2 class="mb-5">Proyectos</h2>
+        <div class="container proyectofondo mt-5" id="proyectos">
+            <div class="proyectos">
+                <br>
+                <h2 class="m-5">Proyectos</h2>
 
                 <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" data-interval="2500">
                     <ol class="carousel-indicators">
@@ -257,6 +257,7 @@
                 </div>
 
             </div>
+            <br><br>
         </div>
         <!--proyectos-->
 
@@ -269,18 +270,19 @@
 
 
         <!--contacto formulario-->
-        <div class="container mt-5 contactodiv">
+        <div class="container mt-5 contactodiv" id="contacto">
+            <h2 class="m-5">Contacto</h2>
             <div class="row">
-                <div class="col-sm-12 col-md-10 col-lg-10">
+                <div class="col-sm-12 col-md-7 col-lg-7">
                     <div class="well well-sm">
                         <form class="form-horizontal" method="post">
                             <fieldset>
-                                <h2 class="m-5">Contacto</h2>
+
 
                                 <div class="form-group">
                                     <span class="col-md-1 col-md-offset-2 text-center"><i
                                             class="fa fa-user bigicon"></i></span>
-                                    <div class="col-md-8">
+                                    <div class="col-md-12">
                                         <input id="fname" name="name" type="text" placeholder="Nombre"
                                             class="form-control">
                                     </div>
@@ -290,7 +292,7 @@
                                 <div class="form-group">
                                     <span class="col-md-1 col-md-offset-2 text-center"><i
                                             class="fa fa-envelope-o bigicon"></i></span>
-                                    <div class="col-md-8">
+                                    <div class="col-md-12">
                                         <input id="email" name="email" type="text" placeholder="Correo"
                                             class="form-control">
                                     </div>
@@ -299,7 +301,7 @@
                                 <div class="form-group">
                                     <span class="col-md-1 col-md-offset-2 text-center"><i
                                             class="fa fa-phone-square bigicon"></i></span>
-                                    <div class="col-md-8">
+                                    <div class="col-md-12">
                                         <input id="phone" name="phone" type="text" placeholder="Celular"
                                             class="form-control">
                                     </div>
@@ -308,7 +310,7 @@
                                 <div class="form-group">
                                     <span class="col-md-1 col-md-offset-2 text-center"><i
                                             class="fa fa-pencil-square-o bigicon"></i></span>
-                                    <div class="col-md-8">
+                                    <div class="col-md-12">
                                         <textarea class="form-control" id="message" name="message" placeholder=""
                                             rows="7"></textarea>
                                     </div>
@@ -323,18 +325,41 @@
                         </form>
                     </div>
                 </div>
-                <!--contacto inconos -->
-                <div class="col-sm-12 col-md-2 col-lg-2">
+                <!--contacto inconos-->
+                <div class="col-sm-12 col-md-5 col-lg-5">
+                    <div class="mt-5">
+                        <div class="container-fluid row">
 
-                    <div class="container-fluid">
-                        <img src="assets/img/pic01.jpg" width="30" length="30" alt="">
+                            <div class="col-2">
+                                <img src="assets/img/whatsapp.svg" width="40" length="40" alt="">
+                            </div>
+                            <div class="col-10">
+                                <p>+569 77 21 6059</p>
+                                <p>+569 77 21 6059</p>
+                            </div>
+
+                        </div>
+
+                        <div class="container-fluid row mt-5">
+
+                            <div class="col-2">
+                                <img src="assets/img/gmail.svg" width="40" length="40" alt="">
+                            </div>
+                            <div class="col-10">
+                                <p>Danielulloa256@gmail.com</p>
+                                <p>Danielulloa256@gmail.com</p>
+                            </div>
+
+                        </div>
 
                     </div>
 
+
                 </div>
-
-
             </div>
+
+
+        </div>
         </div>
         <!--contacto formulario-->
 
@@ -363,7 +388,7 @@
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
             integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
         </script>
-        
+
     </body>
 
     </html>
