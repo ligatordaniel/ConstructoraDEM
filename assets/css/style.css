@@ -24,6 +24,14 @@ h3 {
   height: auto;
 }
 
+.servicios h5 {
+  text-align: center;
+  color: #4f5050;
+}
+.servicios p {
+  color: #4f5050;
+}
+
 .proyectofondo {
   background-color: #313131;
 }
