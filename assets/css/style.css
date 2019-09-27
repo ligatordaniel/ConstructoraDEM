@@ -20,6 +20,21 @@ h3 {
   text-align: justify;
 }
 
+.proyectofondo {
+  background-color: #313131;
+}
+.proyectofondo h2 {
+  color: antiquewhite;
+}
+
+.proyectos {
+  width: 100%;
+  height: auto;
+  max-width: 500px;
+  max-width: 700px;
+  margin: 0px auto;
+}
+
 .contactodiv {
   background-color: #ababb1;
   margin: 0px auto;
